@@ -65,14 +65,14 @@ document.getElementById("follow-btn").addEventListener("click", function() {
 
 // Subscribe Button (Redirect to YouTube Channel)
 document.getElementById("subscribe-btn").addEventListener("click", function() {
-    window.open("https://www.youtube.com/@fbmMarket", "_blank");
+    window.open("https://youtube.com/@ehubtech?si=FgXIy_oQloKF3BN3", "_blank");
 });
 
 // Share Button Functionality
 document.getElementById("share-btn").addEventListener("click", function() {
     if (navigator.share) {
         navigator.share({
-            title: "ইদ্রিস ভাইয়ের প্রোফাইল ভিসিট করুন!",
+            title: "ইদ্রিস ভাইয়ের প্রোফাইল ভিজিট করুন!😊😍",
             url: window.location.href
         });
     } else {
